@@ -10,3 +10,5 @@ const counterSubscriber = () => {
   const latestState = store.getState();
   console.log(latestState);
 }
+
+store.subscribe(counterSubscriber);
