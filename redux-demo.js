@@ -13,3 +13,4 @@ const counterSubscriber = () => {
 }
 
 store.subscribe(counterSubscriber);
+store.dispatch({type: 'INCREMENT'});
